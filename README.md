@@ -6,8 +6,8 @@
 
 ### Nivo
 
-Supports both CSR and SSR implementation.
-For SSR implementation you need to pull, install and run a [nivo-api](https://github.com/plouc/nivo-api) repo localy on [localhost:3030](http://localhost:3030)
+Supports both CSR (client side render) and SSR (server side render) chart implementation.  
+For SSR implementation you need to pull, install and run a [nivo-api](https://github.com/plouc/nivo-api) repo localy on [localhost:3030](http://localhost:3030)  
 To test the SSR disable javascript in browser and reload [localhost:3000](http://localhost:3000). As a result only SSR supported charts should render.
 
 ### Chart.js
