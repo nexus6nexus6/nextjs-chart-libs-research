@@ -4,7 +4,6 @@ import { data } from './data';
 
 const Nivo = ({ ssrChartUrl }) => {
 
-  console.log(ssrChartUrl);
   return (
     <div>
       <h1>Nivo</h1>
