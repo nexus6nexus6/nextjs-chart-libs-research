@@ -1,13 +1,19 @@
 import { ResponsiveLine } from '@nivo/line';
 import { data } from './data';
 
-const Nivo = () => {
+
+const Nivo = ({ ssrChartUrl }) => {
+
+  console.log(ssrChartUrl);
   return (
     <div>
       <h1>Nivo</h1>
       <a href="https://www.npmjs.com/package/@nivo/line" target="_blank">
         https://www.npmjs.com/package/@nivo/line
       </a>
+      <h2>Nivo SSR</h2>
+      <img src={ssrChartUrl} style={{ width: '500px', height: '500px' }} />
+      <h2>Nivo CSR</h2>
       <div style={{ width: '100%', height: '300px' }}>
         <ResponsiveLine
           data={data}

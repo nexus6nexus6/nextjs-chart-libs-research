@@ -35,8 +35,6 @@ const LightweightChart = () => {
       },
     });
 
-    console.log(chart.current);
-
     const candleSeries = chart.current.addCandlestickSeries({
       upColor: '#4bffb5',
       downColor: '#ff4976',
